@@ -410,7 +410,7 @@ prizeClaim:			#function that will allow the user to select their prize.
 	j MainLoop
 
 
-		#Formula SOURCE: https://youtu.be/frjWApYntIA & used part of my code from Assignment #3
+		#Formula SOURCE: https://youtu.be/frjWApYntIA
 		
 arrAddress: # Formula of Row-Major: address = baseAddress + (rowIndex * columnSize + columnIndex) * dataSize   
 	mul $t9, $t7, $t2     # rowIndex * columnSize
